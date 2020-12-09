@@ -5,13 +5,16 @@
     "react-dom": "~16.13.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
     "react-native-screens": "~2.10.1",
-    "react-native-web": "0.13.13"
+    "react-native-web": "0.13.13",
+    "tailwind-rn": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
+    "@types/jest": "^26.0.18",
     "@types/react": "~16.9.49",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.20",
+    "jest": "^26.6.3",
     "typescript": "~3.8.3"
   },
   "scripts": {
@@ -19,7 +22,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest --watch"
   },
   "private": true
 }
