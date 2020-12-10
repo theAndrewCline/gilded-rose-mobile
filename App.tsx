@@ -4,7 +4,7 @@ import tw from 'tailwind-rn'
 
 export default function App() {
   return (
-    <View style={tw('container')}>
+    <View style={tw('flex-1')}>
       <Text>Open up App.tsx to start working on your app!</Text>
     </View>
   )
